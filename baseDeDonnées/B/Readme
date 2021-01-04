@@ -1,0 +1,13 @@
+pour l'éxecution de chaque fichier :
+
+\i nom_fichier
+
+1.on execute d'abord le fichier create_all.sql qui crée toutes les tables et importe les 'open data' pour 
+  les tables pour lesquelles on a choisie d'importer des 'open data' : 
+   \i create_All.sql
+
+2.on execute le fichier insert_data.sql qui va inserer des données pour le reste des table 
+  (on isére nos propres données) : \i insert_data.sql
+
+3.on execute le fichier create_trigger qui va créer tout les triggers et fonctions : \î create_Trigger.sql
+
